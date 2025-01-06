@@ -1,0 +1,27 @@
+1.Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+Ans:-
+Data types are the classification of data into different categories based on the type of value it can hold.
+Primitive Data types are the basic data types that are built-in and can be used directly in a program which is immutable and used to store a single value
+Non-Primitive Data types are the data types that are derived from the primitive data types and can be muttable and store multiple values
+Example of Primitive Data types are number,string,bool,undefined,etc
+console.log(10);
+let str1="double quotes";
+console.log(str1,typeof(str1));
+let str2='single quotes';
+console.log(str1,typeof(str2));
+let str3=`backticks quotes`;
+console.log(str1,typeof(str3));
+let bool1=true;
+console.log(bool1,typeof(bool1));
+let bool2=false;
+console.log(bool1,typeof(bool2));
+let num1=10;
+console.log(num1,typeof(num1))
+let num2=10.2345;
+console.log(num1,typeof(num2))
+let num3=10e3;
+console.log(num1,typeof(num3))
+let a;
+console.log(a,typeof(a));
+let x=null;
+console.log(x,typeof(x));
