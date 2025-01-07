@@ -1,0 +1,52 @@
+Operators:
+ - operators are special symbols which used to perform operation on operands. 
+ ex:- 2(Operand1) +  2(operand2)
+
+1. Unary  operator
+2. Binary
+3. Ternary (operanation ? statement1 : statement2);
+
+
+1.1 Arithmatic :- Which performs oeprations such as 
+    - Additon (concatenation)
+    - Subtraction
+    - multiplication
+    - Division
+    - modulus
+    - exponential
+    - 
+    
+1.2 Assignment
+1.3 Relational 
+1.4 Logical
+
+write a condition to check greater number among three numbers from prompt if and switch
+looping statements,operators
+
+let num1 = parseInt(prompt("Enter the first number:"));
+let num2 = parseInt(prompt("Enter the second number:"));
+let num3 = parseInt(prompt("Enter the third number:"));
+
+
+let greatest;
+if (num1 >= num2 && num1 >= num3) {
+  greatest = num1;
+} else if (num2 >= num1 && num2 >= num3) {
+  greatest = num2;
+} else {
+  greatest = num3;
+}
+console.log(`Using if-else: The greatest number is ${greatest}`);
+
+
+switch (true) {
+  case (num1 >= num2 && num1 >= num3):
+    console.log(`Using switch: The greatest number is ${num1}`);
+    break;
+  case (num2 >= num1 && num2 >= num3):
+    console.log(`Using switch: The greatest number is ${num2}`);
+    break;
+  default:
+    console.log(`Using switch: The greatest number is ${num3}`);
+    break;
+}
